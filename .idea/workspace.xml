@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aecadb0d-e3b5-45e0-b39e-a4ca4ee1d732" name="Changes" comment="les1 homework 1" />
+    <list default="true" id="aecadb0d-e3b5-45e0-b39e-a4ca4ee1d732" name="Changes" comment="les1 homework 1">
+      <change afterPath="$PROJECT_DIR$/Lessons2/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaskriptseptemberNEW.iml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,9 +36,25 @@
     "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Маряна/IdeaProjects/javaskriptseptemberNEW"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="javaskriptseptemberNEW" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="javaskriptseptemberNEW" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -44,6 +64,8 @@
       <option name="presentableId" value="Default" />
       <updated>1667400147883</updated>
       <workItem from="1667400150430" duration="6865000" />
+      <workItem from="1667484607851" duration="252000" />
+      <workItem from="1667484878337" duration="5176000" />
     </task>
     <task id="LOCAL-00001" summary="les1">
       <created>1667404810894</created>
