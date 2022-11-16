@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aecadb0d-e3b5-45e0-b39e-a4ca4ee1d732" name="Changes" comment="les2 homework 2">
-      <change afterPath="$PROJECT_DIR$/Lessons3/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lessons3/main.js" afterDir="false" />
+    <list default="true" id="aecadb0d-e3b5-45e0-b39e-a4ca4ee1d732" name="Changes" comment="les5 homework 5">
+      <change afterPath="$PROJECT_DIR$/Lessons5/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lessons5/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,6 +52,8 @@
       <workItem from="1667484607851" duration="252000" />
       <workItem from="1667484878337" duration="6416000" />
       <workItem from="1668007725221" duration="8310000" />
+      <workItem from="1668511670255" duration="11195000" />
+      <workItem from="1668599948106" duration="6487000" />
     </task>
     <task id="LOCAL-00001" summary="les1">
       <created>1667404810894</created>
@@ -109,6 +111,7 @@
     <MESSAGE value="les1" />
     <MESSAGE value="les1 homework 1" />
     <MESSAGE value="les2 homework 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="les2 homework 2" />
+    <MESSAGE value="les5 homework 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="les5 homework 5" />
   </component>
 </project>
