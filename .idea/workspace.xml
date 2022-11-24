@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aecadb0d-e3b5-45e0-b39e-a4ca4ee1d732" name="Changes" comment="les5 homework 5">
-      <change afterPath="$PROJECT_DIR$/Lessons4/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lessons4/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="aecadb0d-e3b5-45e0-b39e-a4ca4ee1d732" name="Changes" comment="les4 homework 4" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,7 +51,7 @@
       <workItem from="1668511670255" duration="11195000" />
       <workItem from="1668599948106" duration="6487000" />
       <workItem from="1668770728570" duration="2502000" />
-      <workItem from="1669303034603" duration="12819000" />
+      <workItem from="1669303034603" duration="13177000" />
     </task>
     <task id="LOCAL-00001" summary="les1">
       <created>1667404810894</created>
@@ -92,7 +88,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667490261558</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="les4 homework 4">
+      <created>1669316005993</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1669316005993</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,6 +117,7 @@
     <MESSAGE value="les1 homework 1" />
     <MESSAGE value="les2 homework 2" />
     <MESSAGE value="les5 homework 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="les5 homework 5" />
+    <MESSAGE value="les4 homework 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="les4 homework 4" />
   </component>
 </project>
