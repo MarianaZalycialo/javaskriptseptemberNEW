@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aecadb0d-e3b5-45e0-b39e-a4ca4ee1d732" name="Changes" comment="les5 homework 5">
-      <change afterPath="$PROJECT_DIR$/Lessons5/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lessons5/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lessons4/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lessons4/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,6 +54,8 @@
       <workItem from="1668007725221" duration="8310000" />
       <workItem from="1668511670255" duration="11195000" />
       <workItem from="1668599948106" duration="6487000" />
+      <workItem from="1668770728570" duration="2502000" />
+      <workItem from="1669303034603" duration="12819000" />
     </task>
     <task id="LOCAL-00001" summary="les1">
       <created>1667404810894</created>
