@@ -1,39 +1,39 @@
-- За допомогою циклу for і document.write() вивести 10 блоків div c довільним текстом всередині
-    for (let i=0; i<10 ; i++){
+// - За допомогою циклу for і document.write() вивести 10 блоків div c довільним текстом всередині
+    for (let i = 0; i < 10 ;i++){
         document.write(`<div>apple</div>`)
     }
-- За допомогою циклу for і document.write() вивести 10 блоків div c довільним текстом і індексом всередині
+// - За допомогою циклу for і document.write() вивести 10 блоків div c довільним текстом і індексом всередині
     for (let i=0; i<10 ; i++){
         document.write(`<div> apple ${i}</div>`)
     }
-- За допомогою циклу while вивести в документ 20 блоків h1 c довільним текстом всередині.
-let i = 0;
-   while (i<20) {
+// - За допомогою циклу while вивести в документ 20 блоків h1 c довільним текстом всередині.
+    let i = 0;
+    while (i<20) {
     document.write(`<h1>user</h1>`)
        i++;
 }
-- За допомогою циклу while вивести в документ 20 блоків h1 c довільним текстом і індексом всередині.
+// - За допомогою циклу while вивести в документ 20 блоків h1 c довільним текстом і індексом всередині.
 
-    let i = 0;
-while (i<20) {
-    document.write(`<h1>user ${i}</h1>`)
-    i++;
+    let y = 0;
+    while (y<20) {
+    document.write(`<h1>user ${y}</h1>`)
+    y++;
 }
 
-- Використовуючи данні з масиву, за допомоги document.write та циклу
-побудувати структуру по шаблону
-Масив:
+// - Використовуючи данні з масиву, за допомоги document.write та циклу
+// побудувати структуру по шаблону
+// Масив:
 
     let listOfItems = ['html', 'css', 'javascript', 'mysql', 'mongodb', 'react', 'angular', 'node.js'];
-    document.write(`<ul>`)
-    for (let i = 0; i < arr.length; i++) {
-        document.write(`<li>listOfItems ${i}</li>`)
+    document.write(`<ul>`);
+    for (let i = 0; i < listOfItems.length; i++) {
+        document.write(`<li>${listOfItems[i]}</li>`)
     }
     document.write(`</ul>`);
 
-    Використовуючи данні з масиву, за допомоги document.write та циклу
-побудувати структуру по шаблону  Зробити адекватну стилізацію
-Великими літерами прописанні властивості об'єкту які потрібно впровадити в шаблон
+//     Використовуючи данні з масиву, за допомоги document.write та циклу
+// побудувати структуру по шаблону  Зробити адекватну стилізацію
+// Великими літерами прописанні властивості об'єкту які потрібно впровадити в шаблон
 
 let products = [
     {
@@ -58,17 +58,25 @@ let products = [
     },
 ];
 
-ШАБЛОН
-<div class="product-card">
-    <h3 class="product-title">TITLE. Price - PRICE</h3>
-<img src="IMAGE" alt="" class="product-image">
-</div>
-Замість TITLE PRICE IMAGE - підставити відповідні поля з об'єкту
+for (let product of products){
+    document.write(`
+        <div class="product-card">
+            <h3 class="product-title">${product.title}. Price - ${product.price}</h3>
+            <img src="${product.image}" alt="" class="product-image">
+        </div>
+    `)
+}
+// ШАБЛОН
+// <div class="product-card">
+//     <h3 class="product-title">TITLE. Price - PRICE</h3>
+// <img src="IMAGE" alt="" class="product-image">
+// </div>
+// Замість TITLE PRICE IMAGE - підставити відповідні поля з об'єкту
 
 
 
---------------------
-    є масив
+// --------------------
+//     є масив
 let users = [
     {name: 'vasya', age: 31, status: false},
     {name: 'petya', age: 30, status: true},
@@ -82,7 +90,27 @@ let users = [
     {name: 'olya', age: 31, status: false},
     {name: 'max', age: 31, status: true}
 ];
-за допомоги циклу вивести:
-    - користувачів зі статусом true
-- користувачів зі статусом false
-- користувачів які старші за 30 років
+for (let user of users){
+    if (user.status) {
+        console.log(`${user.name} - ${user.status}`)
+    }
+
+}
+
+for (let user of users){
+    if (!user.status) {
+        console.log(`${user.name} - ${user.status}`)
+    }
+
+}
+
+for (let user of users){
+    if (user.age > 30) {
+        console.log(`${user.name} - ${user.age}`)
+    }
+
+}
+// за допомоги циклу вивести:
+//     - користувачів зі статусом true
+// - користувачів зі статусом false
+// - користувачів які старші за 30 років
