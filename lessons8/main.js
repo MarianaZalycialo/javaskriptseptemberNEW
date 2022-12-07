@@ -60,15 +60,17 @@ console.log(clientSorted);
 // -- increaseMaxSpeed (newSpeed) - яка підвищує значення максимальної швидкості на значення newSpeed
 // -- changeYear (newValue) - змінює рік випуску на значення newValue
 // -- addDriver (driver) - приймає об'єкт який "водій" з довільним набором полів, і додає його в поточний об'єкт car
-function Car (model, creater, year , maxSpeed, engine){
+function Car (model, creater, year , maxSpeed, engine) {
     this.model = model ;
     this.creater = creater;
     this.year = year;
     this.maxSpeed =  maxSpeed;
     this.engine =  engine;
+
     this.drive = function (){
         console.log(`їдемо зі швидкістю ${this.maxSpeed} на годину`);
     }
+
     this.info = function (){
         console.log(`Модель - ${this.model}`);
         console.log(`виробник - ${this.creater}`);
@@ -87,6 +89,20 @@ function Car (model, creater, year , maxSpeed, engine){
 
     }
 }
+let car = new Car('bmw','germany','2015','200','2');
+car.info();
+car.drive();
+car.increaseMaxSpeed('160');
+car.changeYear('2000');
+
+class Driver {
+    constructor(name, age) {
+        this.name = name;
+        this.age = age;
+    }
+}
+let driver = new Driver('Діма','35');
+car.addDriver(driver)
 
 //
 //
@@ -97,7 +113,7 @@ function Car (model, creater, year , maxSpeed, engine){
 // -- increaseMaxSpeed (newSpeed) - яка підвищує значення максимальної швидкості на значення newSpeed
 // -- changeYear (newValue) - змінює рік випуску на значення newValue
 // -- addDriver (driver) - приймає об'єкт який "водій" з довільним набором полів, і додає його в поточний об'єкт car
-class Car {
+class Car2 {
     constructor(model, creater, year , maxSpeed, engine) {
      this.model = model ;
      this.creater = creater;
@@ -132,3 +148,39 @@ class Car {
 // Сторити об'єкт класу "принц" за допомоги класу який має поля ім'я, вік, туфелька яку він знайшов.
 //     За допомоги циклу знайти яка попелюшка повинна бути з принцом.
 //     Додатково, знайти необхідну попелюшку за допомоги функції масиву find та відповідного колбеку
+class Cinderella {
+    constructor(name, age, footSize) {
+        this.name = name;
+        this.age = age;
+        this.footSize = footSize;
+    }
+}
+let cinderellas = [
+    new Cinderella('Маряна','28','37'),
+    new Cinderella('Аня','26','38'),
+    new Cinderella('Маша','58','40'),
+    new Cinderella('Соломія','30','41'),
+    new Cinderella('Олена','29','32'),
+    new Cinderella('Інна','50','25'),
+    new Cinderella('Люба','18','36'),
+    new Cinderella('Люда','17','47'),
+    new Cinderella('Міка','34','34'),
+    new Cinderella('Іра','22','30'),
+];
+class Prince{
+    constructor(name, age, footSize) {
+        this.name = name;
+        this.age = age;
+        this.footSize = footSize;
+    }
+
+}
+let prince = new Prince('Діма','32','25')
+for (let cinderella of cinderellas){
+    if (cinderella.footSize === prince.footSize) {
+        console.log(`${cinderella.name} - ${cinderella.footSize}`)
+    }
+}
+const result = cinderellas.find(({ footSize }) => footSize === prince.footSize);
+
+console.log(result);
