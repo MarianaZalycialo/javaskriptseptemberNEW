@@ -122,3 +122,27 @@ console.log(user[6].password);
 console.log(user[7].password);
 console.log(user[8].password);
 console.log(user[9].password);
+
+
+
+let user = {
+    name:'Mariana',
+    age:28
+}
+console.log(user.name);
+let user1 = {
+    name: 'Mariana',
+    age:28,
+
+}
+console.log(user.name);
+let user2 = {
+    name: 'Mariana',
+    age:28
+}
+console.log(user.name);
+
+let users = [user, user1, user2];
+for(let user of users){
+    console.log(user.name);
+}

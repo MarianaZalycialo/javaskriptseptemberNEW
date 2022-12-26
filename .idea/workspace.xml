@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aecadb0d-e3b5-45e0-b39e-a4ca4ee1d732" name="Changes" comment="les8 homework 8">
+      <change afterPath="$PROJECT_DIR$/Mini Project/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mini Project/post-details/post-details.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mini Project/user-details/user-details.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mini Project/user-details/user-details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mini Project/user-details/user-details.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lessons2/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Lessons2/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lessons3/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Lessons3/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaskriptseptemberNEW.iml" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lessons8/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lessons8/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,6 +23,7 @@
       <list>
         <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -36,9 +45,30 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Маряна/IdeaProjects/javaskriptseptemberNEW&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Маряна/IdeaProjects/javaskriptseptemberNEW&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Маряна\IdeaProjects\javaskriptseptemberNEW\Mini Project\user-details" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="index.html" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="index.html" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -58,6 +88,13 @@
       <workItem from="1669371526135" duration="2085000" />
       <workItem from="1670322434628" duration="9474000" />
       <workItem from="1670429861297" duration="4002000" />
+      <workItem from="1670591010118" duration="1548000" />
+      <workItem from="1671197393610" duration="8170000" />
+      <workItem from="1671291030880" duration="3197000" />
+      <workItem from="1671545899047" duration="7268000" />
+      <workItem from="1671617390833" duration="16965000" />
+      <workItem from="1671983106469" duration="14531000" />
+      <workItem from="1672048915395" duration="297000" />
     </task>
     <task id="LOCAL-00001" summary="les1">
       <created>1667404810894</created>

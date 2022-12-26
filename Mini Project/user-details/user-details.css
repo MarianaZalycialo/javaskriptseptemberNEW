@@ -1,0 +1,90 @@
+body {
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Montserrat', sans-serif;
+    background: cornflowerblue;
+}
+
+button{
+    width: 90%;
+    height: 50px;
+    border: solid 1px #092679;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,38,121,1) 35%, rgba(0,212,255,1) 100%);
+    border-radius: 4px;
+    bottom: 15px;
+    left: 21px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: wheat;
+    line-height: 27px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-size: 21px;
+}
+button:hover {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(117,121,9,1) 35%, rgba(0,212,255,1) 100%);
+    cursor: pointer;
+}
+.block{
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.user {
+    width: 50%;
+    background: blue;
+    padding: 10px;
+    font-size: 21px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    position: relative;
+    border-radius: 25px;
+    box-shadow: rgb(0 0 0 / 25%) 0px 54px 55px, rgb(0 0 0 / 12%) 0px -12px 30px, rgb(0 0 0 / 12%) 0px 4px 6px, rgb(0 0 0 / 17%) 0px 12px 13px, rgb(0 0 0 / 9%) 0px -3px 5px;
+}
+
+.posts{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    row-gap: 10px;
+    justify-content: center;
+}
+.post{
+    background: #009dff;
+    width: 170px;
+    height: 170px;
+    position: relative;
+    padding: 10px;
+}
+
+a {
+    width: 70%;
+    height: 22px;
+    border: solid 1px #092679;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,38,121,1) 35%, rgba(0,212,255,1) 100%);;
+    border-radius: 4px;
+    position: absolute;
+    bottom: 15px;
+    left: 21px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: wheat;
+    line-height: 20px;
+}
+a:hover {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(117,121,9,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    border: solid 4px yellowgreen;
+    border-radius: 8px;
+    padding: 3px;
+}
