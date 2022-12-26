@@ -1,0 +1,64 @@
+body {
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Montserrat', sans-serif;
+    background: cornflowerblue;
+}
+
+.users {
+    display: flex;
+    flex-wrap: wrap;
+    width: 700px;
+    margin: 0 auto;
+    justify-content: space-around;
+    background: cornflowerblue;
+}
+
+.user {
+    width: 200px;
+    height: 200px;
+    background: blue;
+    margin: 10px;
+    font-size: 24px;
+    padding: 10px;
+    position: relative;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.user > div {
+    text-align: center;
+    padding-top: 50px;
+    position: relative;
+}
+
+.user > div:before {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: gold;
+    border-radius: 50%;
+    right: 2px;
+    top: 0;
+}
+
+
+a {
+    width: 70%;
+    height: 22px;
+    border: solid 1px #092679;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,38,121,1) 35%, rgba(0,212,255,1) 100%);;
+    border-radius: 4px;
+    position: absolute;
+    bottom: 15px;
+    left: 21px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: wheat;
+    line-height: 20px;
+;
+}
+a:hover {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(117,121,9,1) 35%, rgba(0,212,255,1) 100%);
+}
